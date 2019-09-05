@@ -8,5 +8,6 @@ def hello():
 @app.route("/hagemaru")
 def hagemaru():
 	return "hai!"
+
 if __name__ == "__main__":
 	app.run()
